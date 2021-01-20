@@ -66,7 +66,7 @@ function fungsi13() {
     var myobj = document.getElementById("13");
     myobj.remove();
 }
-function fungs14() {
+function fungsi14() {
     var myobj = document.getElementById("14");
     myobj.remove();
 }
