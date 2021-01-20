@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Wisata Kuy!</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row" >
+		<div class="col-md-12" >
+			<nav class="navbar navbar-toggleable-lg navbar-light bg-light" >
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="navbar-nav">
+						<li><a class="nav-link" href="home.html">Home</a>
+						</li>
+						<li class="nav-item">
+							 <a class="nav-link" href="Wisata Kuliner.html">Wisata Kuliner <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							 <a class="nav-link" href="Wisata Rekreasi.html">Wisata Rekreasi</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="Register Rekreasi.html">Registrasi</a>
+					   </li>
+					</ul>
+					<ul class="navbar-nav ml-md-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="LogIn.html">LogIn</a>
+					   </li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	</div>
+	
+	<div class="container" id="register">
+		<div class="row">
+			<div class="col-md-12 text-right">
+				<a href="Register Kuliner.html" class="">Kuliner</a> |
+				<a href="Register Rekreasi.html" class="">Rekreasi</a>
+			</div>
+		</div>
+		<fieldset class="" id="field">
+		<legend id="legend">Registrasi Wisata Rekreasi</legend>
+		<form class="" role="form">
+		<div class="row">
+			<div class="col-lg-3 text-center">
+				<label for="namaTempat">Nama Wisata</label>
+			</div>
+			<div class="col-lg-9">
+				<input type="text" class="form-control" id="namaTempat" name="namaTempat" required>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3 text-center">
+				<label for="jenisWisata">Jenis wisata</label>
+			</div>
+			<div class="col-lg-4">
+				<select class="form-control" required>
+					<option>Taman</option>
+					<option>Waterpark</option>
+					<option>Kebun Raya</option>
+					<option>Tempat Bersejarah</option>
+				</select>
+			</div> 
+		</div>
+		<div class="row">
+			<div class="col-lg-3 text-center">
+				<label for="deskripsiWisata">Deskripsi Wisata</label>
+			</div>
+			<div class="col-lg-9">
+					<textarea class="form-control" row="5" id="comment"></textarea>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3 text-center">
+				<label for="cp">Contact Person</label>
+			</div>
+			<div class="col-lg-4">
+				<input type="text" class="form-control" id="cp" name="cp" required>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3 text-center">
+				<label for="phone">HP/Telphone</label>
+			</div>
+			<div class="col-lg-4">
+				<input class="form-control" type="tel" id="phone" name="phone" placeholder="0895-****-****" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3 text-center">
+				<label for="web">Alamat Web</label>
+			</div>
+			<div class="col-lg-9">
+				<input type="url" class="form-control" id="web" name="web" placeholder="http://" required>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3 text-center">
+				<label for="alamat">Alamat Lengkap</label>
+			</div>
+			<div class="col-lg-9">
+					<textarea class="form-control" row="5" id="comment"></textarea>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3 text-center">
+				<label for="ll">Longtitude Latitude</label>
+			</div>
+			<div class="col-lg-9">
+				<input type="text" class="form-control" id="ll" name="ll" placeholder="Depok : -6.385589,106.830711" required>
+			</div>
+		</div>
+		<br>
+		<div class="row justify-content-center">
+			<button href="#" type="submit" class="btn btn-primary"> Submit </button>
+		</div>
+		</form>
+		</fieldset>
+	</div>
+			
+	<footer>
+		<div class="container-fluid">	
+		<div class="row">
+			<div class="col-md-12" id="footer">
+				<span class="fixed-bottom">copyright © 2020 SiwiKode</span>
+			</div>
+		</div>
+	</footer>
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

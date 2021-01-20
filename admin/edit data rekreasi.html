@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Wisata Kuy!</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="../css/font-awesome.min.css">
+
+  </head>
+  <body>
+
+    <div class="container-fluid" >
+	<div class="row" >
+		<div class="col-md-12" >
+			<nav class="navbar navbar-toggleable-lg navbar-light bg-light" >
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="navbar-nav">
+						<li><a class="nav-link" href="Home Admin.html">Home</a>
+						</li>
+						<li class="nav-item">
+							 <a class="nav-link active" href="Wisata Kuliner admin.html">Wisata Kuliner <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							 <a class="nav-link" href="Wisata Rekreasi admin.html">Wisata Rekreasi</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Edit Data</a>
+							<div class="dropdown-menu">
+							  <a class="dropdown-item" href="edit data kuliner.html">Edit Data Kuliner</a>
+							  <a class="dropdown-item" href="edit data rekreasi.html">Edit Data Rekrasi</a>
+							</div>
+						  </li>
+					</ul>
+					<ul class="navbar-nav ml-md-auto">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Endi12</a>
+							<div class="dropdown-menu">
+							  <a class="dropdown-item" href="../home.html">Logout</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	</div>
+	
+	<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-12">
+			<table class="table table-striped">
+				<thead class="thead-dark">
+					<tr>
+						<th>No</th>
+						<th>Nama Wisata</th>
+						<th>Jenis wisata</th>
+						<th>Rating</th>
+						<th>Kontak Person</th>
+						<th>Upload Foto</th>
+						<th>Action</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr id="1">
+						<td>1</td>
+						<td>Alam Kampung 99 Pepohonan</td>
+						<td>Taman</td>
+						<td>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+						</td>
+						<td>kuruko</td>
+						<td>
+							<input type="file" id="myFile" name="filename">
+						</td>
+						<td>
+							<button type="button" class="btn btn-success">View</button>
+							<button type="button" class="btn btn-warning">Edit</button>
+							<button type="button" class="btn btn-danger" onclick="fungsi1()">Delete</button>
+						</td>
+					</tr>
+					<tr id="2">
+						<td>2</td>
+						<td>Masjid Kubah Mas</td>
+						<td>Tempat Bersejarah</td>
+						<td>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+						</td>
+						<td>Hamba Allah</td>
+						<td>
+							<input type="file" id="myFile" name="filename">
+						</td>
+						<td>
+							<button type="button" class="btn btn-success">View</button>
+							<button type="button" class="btn btn-warning">Edit</button>
+							<button type="button" class="btn btn-danger" onclick="fungsi2()">Delete</button>
+						</td>
+					</tr>
+					<tr id="3">
+						<td>3</td>
+						<td>Godongijo Depok</td>
+						<td>Taman</td>
+						<td>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+						</td>
+						<td>Muzair</td>
+						<td>
+							<input type="file" id="myFile" name="filename">
+						</td>
+						<td>
+							<button type="button" class="btn btn-success">View</button>
+							<button type="button" class="btn btn-warning">Edit</button>
+							<button type="button" class="btn btn-danger" onclick="fungsi3()">Delete</button>
+						</td>
+					</tr>
+					<tr id="4">
+						<td>4</td>
+						<td>Pasir Putih Depok</td>
+						<td>Waterpark</td>
+						<td>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+						</td>
+						<td>Zaenudin</td>
+						<td>
+							<input type="file" id="myFile" name="filename">
+						</td>
+						<td>
+							<button type="button" class="btn btn-success">View</button>
+							<button type="button" class="btn btn-warning">Edit</button>
+							<button type="button" class="btn btn-danger" onclick="fungsi4()">Delete</button>
+						</td>
+					</tr>
+					<tr id="5">
+						<td>5</td>
+						<td>Gema Pesona Depok</td>
+						<td>Waterpark</td>
+						<td>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+						</td>
+						<td>yoyoh</td>
+						<td>
+							<input type="file" id="myFile" name="filename">
+						</td>
+						<td>
+							<button type="button" class="btn btn-success">View</button>
+							<button type="button" class="btn btn-warning">Edit</button>
+							<button type="button" class="btn btn-danger" onclick="fungsi5()">Delete</button>
+						</td>
+					</tr>
+					<tr id="6">
+						<td>6</td>
+						<td>Agrowisata Belimbing Dewa</td>
+						<td>Taman</td>
+						<td>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+						</td>
+						<td>kuruko</td>
+						<td>
+							<input type="file" id="myFile" name="filename">
+						</td>
+						<td>
+							<button type="button" class="btn btn-success">View</button>
+							<button type="button" class="btn btn-warning">Edit</button>
+							<button type="button" class="btn btn-danger" onclick="fungsi6()">Delete</button>
+						</td>
+					</tr>
+					<tr id="7">
+						<td>7</td>
+						<td>Hutan Kota Depok</td>
+						<td>Taman</td>
+						<td>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+						</td>
+						<td>Humairoh</td>
+						<td>
+							<input type="file" id="myFile" name="filename">
+						</td>
+						<td>
+							<button type="button" class="btn btn-success">View</button>
+							<button type="button" class="btn btn-warning">Edit</button>
+							<button type="button" class="btn btn-danger" onclick="fungsi7()">Delete</button>
+						</td>
+					</tr>
+					<tr id="8">
+						<td>8</td>
+						<td>Setu Sawangan Bojongsari</td>
+						<td>Waterpark</td>
+						<td>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+						</td>
+						<td>Hamba Allah</td>
+						<td>
+							<input type="file" id="myFile" name="filename">
+						</td>
+						<td>
+							<button type="button" class="btn btn-success">View</button>
+							<button type="button" class="btn btn-warning">Edit</button>
+							<button type="button" class="btn btn-danger" onclick="fungsi8()">Delete</button>
+						</td>
+					</tr>
+					<tr id="9">
+						<td>9</td>
+						<td>Taman Bunga Wiladatika</td>
+						<td>Taman</td>
+						<td>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+							<i class="fa fa-star" style="color: yellow"></i>
+						</td>
+						<td>Humajah</td>
+						<td>
+							<input type="file" id="myFile" name="filename">	
+						</td>
+						<td>
+							<button type="button" class="btn btn-success">View</button>
+							<button type="button" class="btn btn-warning">Edit</button>
+							<button type="button" class="btn btn-danger" onclick="fungsi9()">Delete</button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>		
+	</div>
+	</div>
+	<footer>
+		<div class="container-fluid">	
+		<div class="row">
+			<div class="col-md-12" id="footer">
+				<span class="fixed-bottom">copyright © 2020 SiwiKode</span>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/scripts.js"></script>
+  </body>
+</html>

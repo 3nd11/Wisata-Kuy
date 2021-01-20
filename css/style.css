@@ -1,0 +1,401 @@
+* {
+    padding: 0;
+    margin: 0;  
+}
+body{
+    background-image: url(https://weddinginvitations.nz/wp-content/uploads/2019/03/background-batik-putih-2.png);
+    margin: 0;
+    padding: 0;
+}
+#footer span {
+    color: white;
+    font-size: 12px ;
+    padding: 5px;
+    text-align: center;
+    background-clip: padding-box;
+    background-color:rgba(0, 0, 0, 0.6);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* Navbar */
+.navbar{
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: 5px;
+}
+.navbar .navbar-nav{
+    font-weight: bold;
+}
+.navbar .navbar-nav li a {
+    padding: 10px 10px;
+    margin: 0;
+}
+.navbar .navbar-nav li a:hover {
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.dropdown-menu {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8%;
+}
+.dropdown-item {
+    color: rgb(51, 51, 51);
+}
+.dropdown-menu a:hover {
+    background-color:rgba(0, 0, 0, 0.459);
+    transition: 0.3s;
+}
+
+/* Form */
+#form {
+    margin: 100px 0px;
+    padding: 50px 50px;    
+    background-clip: padding-box;
+    background-color: rgba(255, 255, 255, 0.212);
+}
+#fieldset {
+    border: 1px groove black;
+    padding: 0 20px 10px 20px !important;
+}
+#legend {
+    text-align: left;
+    font-weight: bold;
+    width: auto;
+}
+#fieldset label {
+    color: black;
+    font-weight: bold;
+}
+.btn1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 53, 53);
+    border: 1px groove black;
+}
+.btn1:hover {
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+    background-color: rgb(24, 24, 24);
+    transition: 0.3s;
+}
+
+/* Register*/
+#field {
+    border: 1px groove black;
+    padding: 0 20px 10px 20px !important;
+}
+#field label{
+    background-clip: padding-box;
+    color: black;
+    font-weight: bold;
+}
+#register {
+    padding: 50px;
+}
+.kuliner {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* HomePage */
+#home{
+    background-image: url(https://cdn.rentalmobilbali.net/wp-content/uploads/2019/11/Tempat-Wisata-Di-Bali.jpg);
+    background-size: cover;
+}
+#info img {
+    height: 100%;
+    width: 100%;
+}
+.bttn {
+    color: rgb(0, 0, 0);
+    display: inline;
+    border: 1px groove rgb(0, 0, 0);
+    padding: 5px 10px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.bttn:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.425);
+    transition: 0.3s;
+}
+#info {
+    margin: 0px 0px 0px 0px;
+    padding: 71px 0px 71px 0px;
+}
+#info1 ul a{
+    color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+#info1 ul a:hover {
+    color: white;
+    padding: 10px;
+    transition: .5s;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 0.5);
+    text-decoration: none;  
+}
+#info #info2 {
+    color: rgb(0, 0, 0);
+    margin: 70px 0px 70px 0px;
+    padding: 55px 20px 30px 20px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 25px ;
+}
+.row .garis {
+    border-top: 3px groove black;
+}
+
+/* Wisata page */
+
+#header {
+    margin: -30px 10px;
+    padding: 10px 20px;
+}
+
+.packages-review h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	color:#222222;
+	text-transform: capitalize;
+}
+
+.packages-review p {
+	margin: 0;
+	color:#666666;
+	font-size:20px;
+}
+
+img {
+    border:none;max-width:100%; height:auto;
+}
+
+/*-------------------------------------
+        2. Packages 
+--------------------------------------*/
+.packages-review{
+    background-color:rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.packages-review p i{
+    color: yellow;
+    font-size: 20px;
+}
+
+.packages-review span{
+    margin-left: 14px;
+    font-size: 16px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+}
+/*single-package-item */
+
+/*-------------------------------------
+        3. Blog
+--------------------------------------*/
+.blog{
+    margin: 0px 20px;
+    padding: 80px 0px 50px ;
+}
+#edit-thumbnail {
+    padding-top: 50px;
+    background-color: rgba(255, 255, 255, 0.500);
+    border-radius: 10px;
+}
+
+/*blog-content*/
+.blog-content {
+    margin-top: 70px;
+    
+}
+.thumbnail {
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);  
+    margin-top: -30px;  
+    margin-bottom: 40px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.blog-content .thumbnail:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.800);
+    padding-top: 27px;
+}
+.thumbnail h2{
+    padding: 25px 0 25px 20px;
+    color:#565a5c;
+    font-size:      px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.thumbnail span{
+    color:#aaa;
+    font-size:14px;
+    font-weight: normal;
+    padding-left: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*.thumbnail-img*/
+.thumbnail-img{
+    position:relative;
+}
+
+.blog-content .thumbnail .thumbnail-img  img{
+    height: 100%;
+    width: 100%;
+}
+
+.thumbnail-img-overlay{
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.4);
+    opacity:0;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.blog-content .thumbnail:hover  .thumbnail-img-overlay{
+    opacity:1;
+}/*.thumbnail-img*/
+
+/*.caption*/
+.blog-content .caption {
+    margin-top: -10px;
+    background:#fff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.blog-content .thumbnail:hover  .caption {
+    border:transparent;
+    
+}
+
+.blog-txt {
+    margin-top:8px;
+    margin-left:12px;
+}
+.blog-content .caption .blog-txt .btn{
+    color: white;
+    font-weight: bold;
+}
+.blog-content .caption .blog-txt .btn:hover{
+    color: white;
+    font-weight: bold;
+    
+}
+.blog-content .caption .blog-txt  h3 a{
+    color:#565a5c;
+    font-size:16px;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+    margin-top:15px;
+    padding-bottom: 3px;
+    min-height: 63px;
+    line-height: 2;
+}
+
+.blog-content .caption .blog-txt p{
+    color:#aaaaaa;
+    font-size:14px;
+    font-family: 'Poppins', sans-serif;
+    min-height: 105px
+}
+
+.blog-content .caption .blog-txt a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #64cbfa;
+    padding-bottom: 12px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+/* Page */
+#page{
+    margin: 5px 1px 5px;
+    padding: 20px 0px;
+}
+#g1 img{
+    padding: 10px 10px;
+    background-color:rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+#p1{
+    border: 1px groove black;
+    border-radius: 20px;
+}
+#p1 h4{
+    margin: 5px 50px;
+    padding: 10px 0px;
+    border-radius: 25px;
+    background-color:rgba(141, 141, 141, 0.5);
+
+}
+#img{
+    margin: 0px 1px 20px;
+    padding: 10px 10px;
+}
+#img img{
+    border: 1px groove black;
+    border-radius: 50px;
+    padding: 10px 10px;
+    height: 100%;
+    width: 100%;
+}
+#img img:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+#rating {
+    margin: 0px 1px 35px;
+    border-radius: 25px;
+}
+#rating h2 {
+    font-size: 28px;
+    margin: 0px 0px 20px;
+    padding: 15px 20px;
+    background-color:rgb(141, 141, 141, 0.5); ;
+    border-radius: 25px;
+}
+#rating #rting{
+    padding: 15px 15px;
+    border: 1px groove black;
+    border-radius: 25px;
+}
+.table {
+    padding: 25px 15px;
+    margin: 10px 5px 30px;
+}
+
+/* Edit Kelola Data */
+#myFile {
+    color: transparent;
+}
