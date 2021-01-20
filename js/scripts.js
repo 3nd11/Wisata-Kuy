@@ -6,7 +6,7 @@ function validasi() {
 
     if (username == "endi12" && password == "endi12") {
         alert("It's Correct, Welcome Bro!")
-        window.open('../src/admin/Home Admin.html','_self', false);
+        window.open('../admin/Home Admin.html','_self', false);
     }
     else if (username == "" && password == ""){
         alert("Who Are You?!")
