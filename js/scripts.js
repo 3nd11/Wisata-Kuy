@@ -48,7 +48,7 @@ function validasi() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
 
-    if (username == "endi12" && password == "endi12") {
+    if (username == "admin" && password == "admin") {
         alert("It's Correct, Welcome Bro!")
         window.open('../admin/Home Admin.html','_self', false);
     }
